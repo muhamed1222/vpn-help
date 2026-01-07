@@ -1,5 +1,15 @@
 {
   "index": "Главная",
   "installation": "Установка",
-  "faq": "Частые вопросы"
+  "faq": "Частые вопросы",
+  "news_channel": {
+    "title": "Новостной канал 📢",
+    "href": "https://t.me/Outlivion",
+    "newWindow": true
+  },
+  "support_bot": {
+    "title": "Тех. поддержка 🆘",
+    "href": "https://t.me/outlivion_supportbot",
+    "newWindow": true
+  }
 }

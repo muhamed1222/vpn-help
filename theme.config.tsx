@@ -30,7 +30,7 @@ const config = {
     component: null,
   },
   footer: {
-    text: '© 2024 Outlivion VPN',
+    component: null,
   },
   useNextSeoProps() {
     return {
