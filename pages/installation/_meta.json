@@ -1,0 +1,8 @@
+{
+    "ios": "iOS (iPhone/iPad)",
+    "android": "Android",
+    "windows": "Windows",
+    "macos": "macOS",
+    "android-tv": "Android TV",
+    "linux": "Linux"
+}

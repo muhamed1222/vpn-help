@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('/fonts/GTWalsheimPro-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('/fonts/GTWalsheimPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Map Bold (700) and ExtraBold (800) to Medium to prevent faux-bold */
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('/fonts/GTWalsheimPro-Medium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Map Bold (700) and ExtraBold (800) to Medium to prevent faux-bold */
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('/fonts/GTWalsheimPro-Medium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('/fonts/GTWalsheimPro-Medium.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GT Walsheim Pro';
+  src: url('/fonts/GTWalsheimPro-Medium.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Custom tweaks to match Ultima.help if needed */
+body {
+  background-color: #FAFAFA;
+  /* Slightly off-white for premium feel */
+  /* background-image: radial-gradient(circle at 50% 0%, #f1f5f9 0%, #FAFAFA 70%); */
+  background-image: linear-gradient(180deg, #F8FAFC 0%, #FAFAFA 100%);
+  font-family: 'GT Walsheim Pro', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  color: #111;
+}
+
+.dark body {
+  background-color: #0A0A0A;
+  background-image: linear-gradient(180deg, #111 0%, #0A0A0A 100%);
+  color: #EDEDED;
+}
+
+img {
+  border-radius: 12px;
+  /* Soften images */
+}
