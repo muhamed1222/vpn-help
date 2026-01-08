@@ -1,27 +1,32 @@
 {
-  "name": "nextra-docs-template",
-  "version": "0.0.1",
-  "description": "Nextra docs template",
+  "name": "outlivion-vpn-help",
+  "version": "1.0.0",
+  "description": "Outlivion VPN Help Documentation - База знаний и инструкции по настройке VPN",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "https://github.com/outlivion/help-vpn.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "Outlivion Team",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
-  },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "keywords": [
+    "vpn",
+    "documentation",
+    "nextra",
+    "outlivion",
+    "help"
+  ],
   "dependencies": {
+    "@vercel/analytics": "^1.6.1",
     "hugeicons-react": "^0.3.0",
     "next": "^14.0.0",
-    "nextra": "^2.13.4",
-    "nextra-theme-docs": "^2.13.4",
+    "nextra": "2.13.4",
+    "nextra-theme-docs": "2.13.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.5.0"

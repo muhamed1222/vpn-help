@@ -1,23 +1,98 @@
-# Nextra Docs Template 
+# Outlivion VPN Help Documentation
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+Официальная база знаний Outlivion VPN. Инструкции по настройке VPN на iOS, Android, Windows, macOS, Android TV и Linux.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+🌐 **Live:** https://help.outlivion.space
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+## 🚀 Быстрый старт
 
-## Quick Start
+### Требования
 
-Click the button to clone this repository and deploy it on Vercel:
+- Node.js 18+
+- npm или yarn
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+### Установка
 
-## Local Development
+1. Установите зависимости:
+```bash
+npm install
+```
 
-First, run `pnpm i` to install the dependencies.
+2. Запустите dev сервер:
+```bash
+npm run dev
+```
 
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+3. Откройте http://localhost:3000 в браузере
 
-## License
+## 📦 Сборка для production
 
-This project is licensed under the MIT License.
+```bash
+npm run build
+npm start
+```
+
+## 🚀 Деплой на Vercel
+
+Проект готов к деплою на Vercel:
+
+1. Подключите репозиторий к Vercel
+2. Vercel автоматически определит Next.js проект
+3. Деплой произойдет автоматически при push в main ветку
+
+### Ручной деплой через Vercel CLI:
+
+```bash
+npm i -g vercel
+vercel
+```
+
+## 📁 Структура проекта
+
+```
+helpVPN/
+├── pages/              # Страницы документации (MDX)
+│   ├── index.mdx      # Главная страница
+│   ├── installation/  # Инструкции по установке
+│   └── faq/           # Часто задаваемые вопросы
+├── components/        # React компоненты
+├── public/            # Статические файлы (шрифты, логотип)
+├── styles/            # Глобальные стили
+└── theme.config.tsx   # Конфигурация темы Nextra
+```
+
+## 🛠 Технологии
+
+- **Next.js 14** - React фреймворк
+- **Nextra 2.13** - Фреймворк для документации
+- **TypeScript** - Типизация
+- **Tailwind CSS** - Стилизация
+- **MDX** - Markdown с React компонентами
+
+## 📝 Добавление нового контента
+
+1. Создайте новый `.mdx` файл в папке `pages/`
+2. Добавьте метаданные в соответствующий `_meta.json`
+3. Используйте компоненты Nextra: `<Callout>`, `<Cards>`, `<Card>`
+
+Пример:
+```mdx
+import { Callout } from 'nextra/components'
+
+# Заголовок страницы
+
+<Callout type="info" emoji="ℹ️">
+  Важная информация
+</Callout>
+```
+
+## 🔗 Ссылки
+
+- **Сайт:** https://outlivion.space
+- **Telegram бот:** https://t.me/outlivion_bot
+- **Telegram канал:** https://t.me/Outlivion
+- **Поддержка:** https://t.me/outlivion_supportbot
+
+## 📄 Лицензия
+
+MIT
