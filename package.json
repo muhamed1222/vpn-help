@@ -1,7 +1,7 @@
 {
-  "name": "outlivion-vpn-help",
+  "name": "vpn-help",
   "version": "1.0.0",
-  "description": "Outlivion VPN Help Documentation - База знаний и инструкции по настройке VPN",
+  "description": "vpn-web Help Documentation - База знаний и инструкции по настройке VPN",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/outlivion/help-vpn.git"
+    "url": "https://github.com/muhamed1222/vpn-help.git"
   },
   "author": "Outlivion Team",
   "license": "MIT",
