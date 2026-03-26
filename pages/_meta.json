@@ -2,6 +2,16 @@
   "index": "Главная",
   "installation": "Установка",
   "faq": "Частые вопросы",
+  "terms": {
+    "title": "Пользовательское соглашение",
+    "href": "https://www.outlivion.space/ru/terms",
+    "newWindow": true
+  },
+  "privacy": {
+    "title": "Политика конфиденциальности",
+    "href": "https://www.outlivion.space/ru/privacy",
+    "newWindow": true
+  },
   "news_channel": {
     "title": "Новостной канал 📢",
     "href": "https://t.me/Outlivion",

@@ -12,7 +12,7 @@ const config = {
     </div>
   ),
   project: {
-    link: 'https://outlivion.space/',
+    link: 'https://www.outlivion.space/',
     icon: (
       <Globe02Icon size={24} />
     )
@@ -35,11 +35,11 @@ const config = {
   useNextSeoProps() {
     return {
       titleTemplate: '%s – Outlivion VPN',
-      description: 'Официальная база знаний Outlivion VPN. Инструкции по настройке VPN на iOS, Android, Windows, macOS, Android TV и Linux.',
+      description: 'Официальная база знаний Outlivion. Инструкции по настройке, ответы на частые вопросы и быстрый доступ к пользовательскому соглашению и политике конфиденциальности.',
       openGraph: {
         type: 'website',
         locale: 'ru_RU',
-        url: 'https://help.outlivion.space', // Предполагаемый URL
+        url: 'https://help.outlivion.space',
         site_name: 'Outlivion VPN Help',
       }
     }

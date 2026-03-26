@@ -70,6 +70,8 @@ vpn-help/
 - **Инженерная документация:** [`../docs/`](../docs/README.md)
 - **API документация:** [`../docs/04-apis/`](../docs/04-apis/)
 - **Архитектура:** [`../docs/02-architecture.md`](../docs/02-architecture.md)
+- **Copy standard:** [`../docs/COPY_STANDARD.md`](../docs/COPY_STANDARD.md)
+- **Legal audit:** [`../docs/LEGAL_COPY_AUDIT_2026-03-26.md`](../docs/LEGAL_COPY_AUDIT_2026-03-26.md)
 
 ---
 
